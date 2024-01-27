@@ -20,3 +20,4 @@ connectDB();
 
 app.use("/api/v1/auth", require("../route/authRoute"));
 app.use("/api/v1/user", require("../route/userRoute"));
+app.use("/api/v1", require("../route/uploadRoute"));
